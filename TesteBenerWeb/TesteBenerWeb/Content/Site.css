@@ -1,0 +1,324 @@
+﻿.microondas-container
+{
+    background-color: #f4f4f4;
+    border: 5px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 450px;
+    margin: 20px auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    font-family: 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.display-container
+{
+    background-color: #000;
+    color: #0f0; /* Verde digital */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-family: 'Courier New' , Courier, monospace;
+}
+
+.display-container input
+{
+    background: transparent;
+    border: none;
+    color: #0f0;
+    font-size: 1.5em;
+    width: 80px;
+    text-align: right;
+}
+
+.teclado-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.teclado-grid button
+{
+    height: 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.teclado-grid button:hover
+{
+    background-color: #e0e0e0;
+}
+
+.teclado-grid button:disabled
+{
+    background-color: #eee;
+    color: #bbb;
+    cursor: not-allowed;
+}
+
+.acoes-container
+{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-iniciar
+{
+    flex: 2;
+    background-color: #28a745 !important;
+    color: white;
+    border: none;
+    height: 60px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-pausa
+{
+    flex: 1;
+    background-color: #dc3545 !important;
+    color: white;
+    border: none;
+    height: 60px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#statusAquecimento
+{
+    background-color: #000 !important;
+    color: #0f0 !important;
+    padding: 10px;
+    min-height: 40px;
+    font-family: monospace;
+    word-break: break-all;
+}
+
+#title
+{
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-top: 30px; /* Espaçamento superior */
+    margin-bottom: 10px; /* Espaçamento em relação ao painel */
+}
+
+#title h1
+{
+    font-family: 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Cinza escuro para combinar com a borda do painel */
+    font-weight: 300; /* Deixa a fonte levemente mais fina e elegante */
+    font-size: 2.5em; /* Tamanho de destaque */
+    letter-spacing: -1px; /* Ajuste de proximidade das letras para um ar moderno */
+}
+
+.programas-pre-definidos
+{
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 2px solid #ccc; /* Linha divisória para separar do teclado */
+    text-align: center;
+}
+
+/* Título "Programas de Aquecimento" */
+.programas-pre-definidos h3
+{
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+/* Estilização específica para os botões de programas */
+.programas-pre-definidos .btn-pre
+{
+    background-color: #fdfdfd;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    min-width: 70px; /* Garante que os botões tenham tamanho similar */
+}
+
+/* Efeito de hover (passar o mouse) */
+.programas-pre-definidos .btn-pre:hover
+{
+    background-color: #e8f4fd;
+    border-color: #3498db;
+    color: #3498db;
+}
+
+/* Efeito quando o botão estiver desativado (Regra 'd' e 'e') */
+.programas-pre-definidos .btn-pre:disabled
+{
+    background-color: #eee;
+    color: #999;
+    border-color: #ddd;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.modal
+{
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    backdrop-filter: blur(2px); /* Efeito moderno de desfoque */
+}
+
+/* Conteúdo da Modal */
+.modal-content
+{
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 25px;
+    width: 100%;
+    max-width: 500px; /* Largura máxima confortável */
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.modal-content h3
+{
+    margin-top: 0;
+    color: #333;
+}
+
+/* Estrutura dos Campos */
+.form-group
+{
+    margin-bottom: 15px;
+}
+.form-group label
+{
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-control
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura */
+}
+
+/* Rodapé e Botões */
+.modal-footer
+{
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.btn-cancel, .btn-save
+{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+/* Estilo para quando o campo for focado e estiver vazio */
+.form-control:focus:invalid
+{
+    border-color: #e74c3c;
+    box-shadow: 0 0 5px rgba(231, 76, 60, 0.5);
+}
+
+/* Classe de erro que o JS pode injetar */
+.field-error
+{
+    border: 2px solid #e74c3c !important;
+    background-color: #fff6f6;
+}
+.btn-cancel
+{
+    background-color: #6c757d;
+    color: white;
+}
+.btn-cancel:hover
+{
+    background-color: #5a6268;
+}
+
+.btn-save
+{
+    background-color: #28a745;
+    color: white;
+}
+.btn-save:hover
+{
+    background-color: #218838;
+}
+
+
+.programas-pre-definidos {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo base para todos os botões de programa */
+.btn-pre {
+    padding: 8px 15px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.btn-pre:hover {
+    background-color: #e2e2e2;
+}
+
+/* ESTILO ESPECÍFICO PARA PROGRAMAS CUSTOMIZADOS */
+.btn-custom-novo {
+    font-style: italic !important;
+    border-color: #999;
+    color: #333;
+}
+
+/* Container específico onde o JS injetará os botões */
+#containerBotoesCustomizados {
+    display: inline-block;
+}
+
+.table-grid th, .table-grid td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.btn-edit { background: #ffc107; color: #000; border: none; padding: 5px 8px; cursor: pointer; border-radius: 3px; margin-right: 5px; }
+.btn-delete { background: #dc3545; color: #fff; border: none; padding: 5px 8px; cursor: pointer; border-radius: 3px; }
+
+.btn-edit:hover { background: #e0a800; }
+.btn-delete:hover { background: #c82333; }

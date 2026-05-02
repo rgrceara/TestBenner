@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7ca5d4a9-0098-4e67-8270-0b121c65bc8a" name="ROGERIOROCHA@ROGERIOROCHA-PC 2026-05-02 11:17:11" runUser="ROGERIOROCHA-PC\ROGERIOROCHA" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="d047b1eb-39f6-4041-9db1-fda507d03464">
+    <Deployment runDeploymentRoot="ROGERIOROCHA_ROGERIOROCHA-PC 2026-05-02 11_17_11">
+      <DeploymentItem filename="C:\TestBenner\TestBenner\TesteBenerWeb\TesteBenerWeb\bin\TesteBenerWeb.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2026-05-02T11:17:11.5358805-03:00" queuing="2026-05-02T11:17:12.4669338-03:00" start="2026-05-02T11:17:12.5249371-03:00" finish="2026-05-02T11:17:13.2499786-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="21" executed="21" passed="20" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="4ec350ab-2882-dfbe-cf4b-19e5a3852f20">
+      <Execution id="a5ddcae3-16b9-4633-854d-93e429b289ef" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="Test_Iniciar_Com_Potencia_Customizada" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="5b2a5152-e5e7-edd2-e15d-efff7d626be0">
+      <Execution id="ff38e1b6-7891-4057-8a9d-77f740638dac" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.HomeControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Iniciar_Com_Potencia_Customizada" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="d90c83ec-0b1a-8c6d-f521-13ae7189c8cc">
+      <Execution id="03ec4da1-9d0c-44ce-8b39-926f5e4c6ce2" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.HomeControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="568d3aee-81f7-693b-4ce6-59137a9d659e">
+      <Execution id="5b4710aa-c12d-49e9-9490-bc7eab112095" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="f16aec51-ad86-f9ab-95f8-dce65e8c4695">
+      <Execution id="96fbd3bb-ada0-4101-80b6-d37ddc58d983" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="f7bfabbd-873e-92af-7d93-e8c7ae3ec6f9">
+      <Execution id="124afae0-a6b4-4e15-aa58-d2b267a5a910" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="e690f8ca-3c99-2caf-20c5-9642e2680ced">
+      <Execution id="a86b09d0-3b5d-4cea-86d2-befbaeefa890" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="332d52d7-fd9e-c565-ca1b-e61ba33eff16">
+      <Execution id="5f00ad99-9929-41ee-9584-387803a33bdd" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="afec235c-db2e-0d2a-207a-3c699c9ca39f">
+      <Execution id="8021378f-1a96-434b-a3b7-47796f5b4aff" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="6d06a5f6-8845-1257-43fb-301bd5c1851b">
+      <Execution id="a8143bf0-4aeb-4b1c-9a37-e5b44ac7b158" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="b73d6e79-f644-3cdc-8f3a-b40d023eddfa">
+      <Execution id="73469eba-962b-49c8-bdd4-e7f8a73bdc3c" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="eb08dc86-8ea0-792c-b1d5-a8b00e51f08c">
+      <Execution id="34293373-6b42-4486-898b-1b66d89c2c05" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="9fbb72a2-ccca-4727-abe1-1c78307e9d24">
+      <Execution id="c2ad8ae5-e371-48c6-ab71-eefaab92e118" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.HomeControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="83c86856-3b2a-8fc8-a71b-95a3df157b2c">
+      <Execution id="969ac107-a40e-4e02-847d-c222c8287b19" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="Test_Iniciar_Aquecimento_Simples_30s" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="708b1451-5121-d762-e402-c6e621423970">
+      <Execution id="5a702e57-fd59-4ebb-8299-5f0e291185f1" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.HomeControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Iniciar_Aquecimento_Simples_30s" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="4d9bc686-9174-c1bb-d590-be38f36dffde">
+      <Execution id="71962833-a8a9-4c2f-9f8f-1e74ef4e7299" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="5e28ec36-f69a-bf46-81b9-113b80736c75">
+      <Execution id="f54aefd8-fbbc-4349-938b-5bdc5e89ae4f" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="058cd261-b944-2f88-4a30-ce47932c359d">
+      <Execution id="51e0cf9d-1783-4715-a5a3-104867c60121" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Test_ValidarConexao_Deve_Retornar_Sucesso" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="20370dbb-9ef0-8cdc-c694-deeac06e4e83">
+      <Execution id="d29577cb-ac95-4c5f-895f-9796aa8d536d" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.HomeControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_ValidarConexao_Deve_Retornar_Sucesso" />
+    </UnitTest>
+    <UnitTest name="Test_About_Deve_Retornar_View" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="a6c59c1c-a233-06f3-d265-57ef63603591">
+      <Execution id="b97be797-110c-4fe9-9595-4589023e4651" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.HomeControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_About_Deve_Retornar_View" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="ff1b53a4-7570-36f4-91a3-750c30014014">
+      <Execution id="b0221529-8795-4842-ae7a-8247096258de" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.Controllers.AccountControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="058cd261-b944-2f88-4a30-ce47932c359d" executionId="51e0cf9d-1783-4715-a5a3-104867c60121" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20370dbb-9ef0-8cdc-c694-deeac06e4e83" executionId="d29577cb-ac95-4c5f-895f-9796aa8d536d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="332d52d7-fd9e-c565-ca1b-e61ba33eff16" executionId="5f00ad99-9929-41ee-9584-387803a33bdd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d9bc686-9174-c1bb-d590-be38f36dffde" executionId="71962833-a8a9-4c2f-9f8f-1e74ef4e7299" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ec350ab-2882-dfbe-cf4b-19e5a3852f20" executionId="a5ddcae3-16b9-4633-854d-93e429b289ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="568d3aee-81f7-693b-4ce6-59137a9d659e" executionId="5b4710aa-c12d-49e9-9490-bc7eab112095" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b2a5152-e5e7-edd2-e15d-efff7d626be0" executionId="ff38e1b6-7891-4057-8a9d-77f740638dac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e28ec36-f69a-bf46-81b9-113b80736c75" executionId="f54aefd8-fbbc-4349-938b-5bdc5e89ae4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d06a5f6-8845-1257-43fb-301bd5c1851b" executionId="a8143bf0-4aeb-4b1c-9a37-e5b44ac7b158" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="708b1451-5121-d762-e402-c6e621423970" executionId="5a702e57-fd59-4ebb-8299-5f0e291185f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83c86856-3b2a-8fc8-a71b-95a3df157b2c" executionId="969ac107-a40e-4e02-847d-c222c8287b19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fbb72a2-ccca-4727-abe1-1c78307e9d24" executionId="c2ad8ae5-e371-48c6-ab71-eefaab92e118" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6c59c1c-a233-06f3-d265-57ef63603591" executionId="b97be797-110c-4fe9-9595-4589023e4651" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afec235c-db2e-0d2a-207a-3c699c9ca39f" executionId="8021378f-1a96-434b-a3b7-47796f5b4aff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b73d6e79-f644-3cdc-8f3a-b40d023eddfa" executionId="73469eba-962b-49c8-bdd4-e7f8a73bdc3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d90c83ec-0b1a-8c6d-f521-13ae7189c8cc" executionId="03ec4da1-9d0c-44ce-8b39-926f5e4c6ce2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e690f8ca-3c99-2caf-20c5-9642e2680ced" executionId="a86b09d0-3b5d-4cea-86d2-befbaeefa890" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb08dc86-8ea0-792c-b1d5-a8b00e51f08c" executionId="34293373-6b42-4486-898b-1b66d89c2c05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f16aec51-ad86-f9ab-95f8-dce65e8c4695" executionId="96fbd3bb-ada0-4101-80b6-d37ddc58d983" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7bfabbd-873e-92af-7d93-e8c7ae3ec6f9" executionId="124afae0-a6b4-4e15-aa58-d2b267a5a910" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff1b53a4-7570-36f4-91a3-750c30014014" executionId="b0221529-8795-4842-ae7a-8247096258de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="51e0cf9d-1783-4715-a5a3-104867c60121" testId="058cd261-b944-2f88-4a30-ce47932c359d" testName="ChangePasswordSuccess_ReturnsView" computerName="ROGERIOROCHA-PC" duration="00:00:00.0280977" startTime="2026-05-02T11:17:12.5489385-03:00" endTime="2026-05-02T11:17:12.9759629-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51e0cf9d-1783-4715-a5a3-104867c60121">
+    </UnitTestResult>
+    <UnitTestResult executionId="d29577cb-ac95-4c5f-895f-9796aa8d536d" testId="20370dbb-9ef0-8cdc-c694-deeac06e4e83" testName="Test_ValidarConexao_Deve_Retornar_Sucesso" computerName="ROGERIOROCHA-PC" duration="00:00:00.0045607" startTime="2026-05-02T11:17:12.9849634-03:00" endTime="2026-05-02T11:17:12.9959640-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d29577cb-ac95-4c5f-895f-9796aa8d536d">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f00ad99-9929-41ee-9584-387803a33bdd" testId="332d52d7-fd9e-c565-ca1b-e61ba33eff16" testName="LogOn_Get_ReturnsView" computerName="ROGERIOROCHA-PC" duration="00:00:00.0003511" startTime="2026-05-02T11:17:12.9989642-03:00" endTime="2026-05-02T11:17:13.0039645-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f00ad99-9929-41ee-9584-387803a33bdd">
+    </UnitTestResult>
+    <UnitTestResult executionId="71962833-a8a9-4c2f-9f8f-1e74ef4e7299" testId="4d9bc686-9174-c1bb-d590-be38f36dffde" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="ROGERIOROCHA-PC" duration="00:00:00.0064643" startTime="2026-05-02T11:17:13.0049646-03:00" endTime="2026-05-02T11:17:13.0169652-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71962833-a8a9-4c2f-9f8f-1e74ef4e7299">
+    </UnitTestResult>
+    <UnitTestResult executionId="a5ddcae3-16b9-4633-854d-93e429b289ef" testId="4ec350ab-2882-dfbe-cf4b-19e5a3852f20" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="ROGERIOROCHA-PC" duration="00:00:00.0021982" startTime="2026-05-02T11:17:13.0199654-03:00" endTime="2026-05-02T11:17:13.0269658-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5ddcae3-16b9-4633-854d-93e429b289ef">
+    </UnitTestResult>
+    <UnitTestResult executionId="5b4710aa-c12d-49e9-9490-bc7eab112095" testId="568d3aee-81f7-693b-4ce6-59137a9d659e" testName="ChangePassword_Get_ReturnsView" computerName="ROGERIOROCHA-PC" duration="00:00:00.0006167" startTime="2026-05-02T11:17:13.0289659-03:00" endTime="2026-05-02T11:17:13.0359663-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b4710aa-c12d-49e9-9490-bc7eab112095">
+    </UnitTestResult>
+    <UnitTestResult executionId="ff38e1b6-7891-4057-8a9d-77f740638dac" testId="5b2a5152-e5e7-edd2-e15d-efff7d626be0" testName="Test_Iniciar_Com_Potencia_Customizada" computerName="ROGERIOROCHA-PC" duration="00:00:00.0048828" startTime="2026-05-02T11:17:13.0389665-03:00" endTime="2026-05-02T11:17:13.0489671-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff38e1b6-7891-4057-8a9d-77f740638dac">
+    </UnitTestResult>
+    <UnitTestResult executionId="f54aefd8-fbbc-4349-938b-5bdc5e89ae4f" testId="5e28ec36-f69a-bf46-81b9-113b80736c75" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="ROGERIOROCHA-PC" duration="00:00:00.0036143" startTime="2026-05-02T11:17:13.0509672-03:00" endTime="2026-05-02T11:17:13.0609678-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f54aefd8-fbbc-4349-938b-5bdc5e89ae4f">
+    </UnitTestResult>
+    <UnitTestResult executionId="a8143bf0-4aeb-4b1c-9a37-e5b44ac7b158" testId="6d06a5f6-8845-1257-43fb-301bd5c1851b" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="ROGERIOROCHA-PC" duration="00:00:00.0013647" startTime="2026-05-02T11:17:13.0649680-03:00" endTime="2026-05-02T11:17:13.0739685-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8143bf0-4aeb-4b1c-9a37-e5b44ac7b158">
+    </UnitTestResult>
+    <UnitTestResult executionId="5a702e57-fd59-4ebb-8299-5f0e291185f1" testId="708b1451-5121-d762-e402-c6e621423970" testName="Test_Iniciar_Aquecimento_Simples_30s" computerName="ROGERIOROCHA-PC" duration="00:00:00.0005465" startTime="2026-05-02T11:17:13.0749686-03:00" endTime="2026-05-02T11:17:13.0819690-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a702e57-fd59-4ebb-8299-5f0e291185f1">
+    </UnitTestResult>
+    <UnitTestResult executionId="969ac107-a40e-4e02-847d-c222c8287b19" testId="83c86856-3b2a-8fc8-a71b-95a3df157b2c" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="ROGERIOROCHA-PC" duration="00:00:00.0010952" startTime="2026-05-02T11:17:13.0829690-03:00" endTime="2026-05-02T11:17:13.0949697-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="969ac107-a40e-4e02-847d-c222c8287b19">
+    </UnitTestResult>
+    <UnitTestResult executionId="c2ad8ae5-e371-48c6-ab71-eefaab92e118" testId="9fbb72a2-ccca-4727-abe1-1c78307e9d24" testName="About" computerName="ROGERIOROCHA-PC" duration="00:00:00.0003737" startTime="2026-05-02T11:17:13.0979699-03:00" endTime="2026-05-02T11:17:13.1049703-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2ad8ae5-e371-48c6-ab71-eefaab92e118">
+    </UnitTestResult>
+    <UnitTestResult executionId="b97be797-110c-4fe9-9595-4589023e4651" testId="a6c59c1c-a233-06f3-d265-57ef63603591" testName="Test_About_Deve_Retornar_View" computerName="ROGERIOROCHA-PC" duration="00:00:00.0002339" startTime="2026-05-02T11:17:13.1069704-03:00" endTime="2026-05-02T11:17:13.1119707-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b97be797-110c-4fe9-9595-4589023e4651">
+    </UnitTestResult>
+    <UnitTestResult executionId="8021378f-1a96-434b-a3b7-47796f5b4aff" testId="afec235c-db2e-0d2a-207a-3c699c9ca39f" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="ROGERIOROCHA-PC" duration="00:00:00.0006552" startTime="2026-05-02T11:17:13.1139708-03:00" endTime="2026-05-02T11:17:13.1189711-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8021378f-1a96-434b-a3b7-47796f5b4aff">
+    </UnitTestResult>
+    <UnitTestResult executionId="73469eba-962b-49c8-bdd4-e7f8a73bdc3c" testId="b73d6e79-f644-3cdc-8f3a-b40d023eddfa" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="ROGERIOROCHA-PC" duration="00:00:00.0004742" startTime="2026-05-02T11:17:13.1219712-03:00" endTime="2026-05-02T11:17:13.1279716-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73469eba-962b-49c8-bdd4-e7f8a73bdc3c">
+    </UnitTestResult>
+    <UnitTestResult executionId="03ec4da1-9d0c-44ce-8b39-926f5e4c6ce2" testId="d90c83ec-0b1a-8c6d-f521-13ae7189c8cc" testName="Index" computerName="ROGERIOROCHA-PC" duration="00:00:00.0562622" startTime="2026-05-02T11:17:13.1309718-03:00" endTime="2026-05-02T11:17:13.1909752-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03ec4da1-9d0c-44ce-8b39-926f5e4c6ce2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Welcome to ASP.NET MVC!&gt;. Actual:&lt;(null)&gt;. </Message>
+          <StackTrace>   em TesteBenerWeb.Tests.Controllers.HomeControllerTest.Index() na C:\TestBenner\TestBenner\TesteBenerWeb\TesteBenerWeb.Tests\Controllers\HomeControllerTest.cs:linha 26
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a86b09d0-3b5d-4cea-86d2-befbaeefa890" testId="e690f8ca-3c99-2caf-20c5-9642e2680ced" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="ROGERIOROCHA-PC" duration="00:00:00.0006321" startTime="2026-05-02T11:17:13.1939754-03:00" endTime="2026-05-02T11:17:13.2019758-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a86b09d0-3b5d-4cea-86d2-befbaeefa890">
+    </UnitTestResult>
+    <UnitTestResult executionId="34293373-6b42-4486-898b-1b66d89c2c05" testId="eb08dc86-8ea0-792c-b1d5-a8b00e51f08c" testName="LogOff_LogsOutAndRedirects" computerName="ROGERIOROCHA-PC" duration="00:00:00.0007321" startTime="2026-05-02T11:17:13.2039759-03:00" endTime="2026-05-02T11:17:13.2099763-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34293373-6b42-4486-898b-1b66d89c2c05">
+    </UnitTestResult>
+    <UnitTestResult executionId="96fbd3bb-ada0-4101-80b6-d37ddc58d983" testId="f16aec51-ad86-f9ab-95f8-dce65e8c4695" testName="Register_Get_ReturnsView" computerName="ROGERIOROCHA-PC" duration="00:00:00.0005358" startTime="2026-05-02T11:17:13.2109763-03:00" endTime="2026-05-02T11:17:13.2169767-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96fbd3bb-ada0-4101-80b6-d37ddc58d983">
+    </UnitTestResult>
+    <UnitTestResult executionId="124afae0-a6b4-4e15-aa58-d2b267a5a910" testId="f7bfabbd-873e-92af-7d93-e8c7ae3ec6f9" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="ROGERIOROCHA-PC" duration="00:00:00.0005444" startTime="2026-05-02T11:17:13.2189768-03:00" endTime="2026-05-02T11:17:13.2249771-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="124afae0-a6b4-4e15-aa58-d2b267a5a910">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0221529-8795-4842-ae7a-8247096258de" testId="ff1b53a4-7570-36f4-91a3-750c30014014" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="ROGERIOROCHA-PC" duration="00:00:00.0004268" startTime="2026-05-02T11:17:13.2259772-03:00" endTime="2026-05-02T11:17:13.2319775-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0221529-8795-4842-ae7a-8247096258de">
+    </UnitTestResult>
+  </Results>
+</TestRun>

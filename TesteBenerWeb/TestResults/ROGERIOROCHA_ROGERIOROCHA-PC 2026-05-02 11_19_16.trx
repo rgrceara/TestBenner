@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f35e2778-d303-43c2-b67e-7d37061b74f6" name="ROGERIOROCHA@ROGERIOROCHA-PC 2026-05-02 11:19:16" runUser="ROGERIOROCHA-PC\ROGERIOROCHA" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="45938c75-90bd-410b-a6b6-9da46af0f37c">
+    <Deployment runDeploymentRoot="ROGERIOROCHA_ROGERIOROCHA-PC 2026-05-02 11_19_16">
+      <DeploymentItem filename="C:\TestBenner\TestBenner\TesteBenerWeb\TesteBenerWeb\bin\TesteBenerWeb.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2026-05-02T11:19:16.4060227-03:00" queuing="2026-05-02T11:19:16.5730322-03:00" start="2026-05-02T11:19:16.5890332-03:00" finish="2026-05-02T11:19:16.9580543-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_ValidarConexao_Deve_Retornar_Sucesso" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="20370dbb-9ef0-8cdc-c694-deeac06e4e83">
+      <Execution id="98ac59fc-23eb-4d1f-8e1b-04b390721167" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.HomeControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_ValidarConexao_Deve_Retornar_Sucesso" />
+    </UnitTest>
+    <UnitTest name="Test_Iniciar_Aquecimento_Simples_30s" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="708b1451-5121-d762-e402-c6e621423970">
+      <Execution id="0f74ee22-2141-409a-827b-a929a5b9e919" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.HomeControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Iniciar_Aquecimento_Simples_30s" />
+    </UnitTest>
+    <UnitTest name="Test_Iniciar_Com_Potencia_Customizada" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="5b2a5152-e5e7-edd2-e15d-efff7d626be0">
+      <Execution id="5a751342-f16c-4f08-a63c-7765e74922b0" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.HomeControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Iniciar_Com_Potencia_Customizada" />
+    </UnitTest>
+    <UnitTest name="Test_About_Deve_Retornar_View" storage="c:\testbenner\testbenner\testebenerweb\testebenerweb.tests\bin\debug\testebenerweb.tests.dll" id="a6c59c1c-a233-06f3-d265-57ef63603591">
+      <Execution id="3b02b5c3-7c98-441c-aec6-7cc321708213" />
+      <TestMethod codeBase="C:/TestBenner/TestBenner/TesteBenerWeb/TesteBenerWeb.Tests/bin/Debug/TesteBenerWeb.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteBenerWeb.Tests.HomeControllerTest, TesteBenerWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_About_Deve_Retornar_View" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="20370dbb-9ef0-8cdc-c694-deeac06e4e83" executionId="98ac59fc-23eb-4d1f-8e1b-04b390721167" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b2a5152-e5e7-edd2-e15d-efff7d626be0" executionId="5a751342-f16c-4f08-a63c-7765e74922b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="708b1451-5121-d762-e402-c6e621423970" executionId="0f74ee22-2141-409a-827b-a929a5b9e919" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6c59c1c-a233-06f3-d265-57ef63603591" executionId="3b02b5c3-7c98-441c-aec6-7cc321708213" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="98ac59fc-23eb-4d1f-8e1b-04b390721167" testId="20370dbb-9ef0-8cdc-c694-deeac06e4e83" testName="Test_ValidarConexao_Deve_Retornar_Sucesso" computerName="ROGERIOROCHA-PC" duration="00:00:00.0200992" startTime="2026-05-02T11:19:16.5920333-03:00" endTime="2026-05-02T11:19:16.9060513-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98ac59fc-23eb-4d1f-8e1b-04b390721167">
+    </UnitTestResult>
+    <UnitTestResult executionId="5a751342-f16c-4f08-a63c-7765e74922b0" testId="5b2a5152-e5e7-edd2-e15d-efff7d626be0" testName="Test_Iniciar_Com_Potencia_Customizada" computerName="ROGERIOROCHA-PC" duration="00:00:00.0050089" startTime="2026-05-02T11:19:16.9080514-03:00" endTime="2026-05-02T11:19:16.9180520-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a751342-f16c-4f08-a63c-7765e74922b0">
+    </UnitTestResult>
+    <UnitTestResult executionId="0f74ee22-2141-409a-827b-a929a5b9e919" testId="708b1451-5121-d762-e402-c6e621423970" testName="Test_Iniciar_Aquecimento_Simples_30s" computerName="ROGERIOROCHA-PC" duration="00:00:00.0007189" startTime="2026-05-02T11:19:16.9230523-03:00" endTime="2026-05-02T11:19:16.9310527-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f74ee22-2141-409a-827b-a929a5b9e919">
+    </UnitTestResult>
+    <UnitTestResult executionId="3b02b5c3-7c98-441c-aec6-7cc321708213" testId="a6c59c1c-a233-06f3-d265-57ef63603591" testName="Test_About_Deve_Retornar_View" computerName="ROGERIOROCHA-PC" duration="00:00:00.0003340" startTime="2026-05-02T11:19:16.9340529-03:00" endTime="2026-05-02T11:19:16.9390532-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b02b5c3-7c98-441c-aec6-7cc321708213">
+    </UnitTestResult>
+  </Results>
+</TestRun>

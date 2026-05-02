@@ -1,0 +1,30 @@
+## Visual Studio Ignored Files ##
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bin/
+obj/
+
+# Visual Studio 2010/2012/2015/2019/2022
+*.nosync
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+.vs/
+
+# NuGet Packages
+packages/
+!packages/repositories.config
+
+# Arquivos temporários do sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Rider / JetBrains (se usar)
+.idea/

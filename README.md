@@ -1,26 +1,40 @@
-# Project Empty Template
+﻿# Desafio Micro-ondas - Teste Bener Web
 
-Este é um repositório de exemplo para você começar a desenvolver a questão, leia com atenção os requisitos do enunciado da questão na plataforma e seguia as boas práticas sobre como utilizar este repositório.
+Este projeto é uma aplicação de simulação de micro-ondas desenvolvida para gerenciar programas de aquecimento personalizados e padrões via interface web e backend robusto.
 
+## 🛠️ Tecnologias e Ferramentas
 
-## Readme do Repositório
+*   **Linguagem:** C#.
+*   **Framework Backend:** ASP.NET MVC 2.0 / .NET Framework 4.0.
+*   **Frontend:** HTML, CSS3 e JavaScript puro (Vanilla JS).
+*   **Data Handling:** JSON para persistência de programas customizados e logs.
+*   **Testes:** MSTest com mocks manuais (compatibilidade .NET 4.0).
 
-- Deve conter o título do projeto
-- Uma descrição sobre o projeto em frase
-- Deve conter uma lista com linguagem, framework e/ou tecnologias usadas
-- Como instalar e usar o projeto (instruções)
-- Não esqueça o [.gitignore](https://www.toptal.com/developers/gitignore)
-- Se está usando github pessoal, referencie que é um challenge by coodesh:  
+## 🚀 Instalação e Uso
 
->  This is a challenge by [Coodesh](https://coodesh.com/)
+### Pré-requisitos
+*   Visual Studio 2010 ou superior.
+*   Internet Information Services (IIS) ou IIS Express configurado.
+*   Target Framework: .NET Framework 4.0 instalado no servidor/máquina de desenvolvimento.
 
-## Finalização e Instruções para a Apresentação
+### Passo a Passo
+1.  **Clonar o Repositório:**
+    ```bash git clone https://github.com/rgrceara/TestBenner.git
+    ```
 
-1. Adicione o link do repositório com a sua solução na questão na plataforma
-2. Verifique se o Readme está bom e faça o commit final em seu repositório;
-3. Envie e aguarde as instruções para seguir. Caso o teste tenha apresentação de vídeo, dentro da tela de entrega será possível gravar após adicionar o link do repositório. Sucesso e boa sorte. =)
+2.  **Configurar Permissões:**
+    *   Certifique-se de que o usuário do processo do IIS possui permissões de **Escrita** na pasta `App_Data` para o funcionamento do log de erros e persistência de programas.
 
+3.  **Restaurar Dependências:**
+    *   As referências do projeto estão configuradas manualmente para compatibilidade com .NET 4.0.
 
-## Suporte
+4.  **Executar:**
+    *   Abra o arquivo `.sln` no Visual Studio, defina o projeto `TesteBenerWeb` como inicial e pressione **F5**
 
-Para tirar dúvidas sobre o processo envie uma mensagem diretamente a um especialista no chat da plataforma. 
+5.  ** A senha do token se encontra no arquivo Web.Config para testes.
+
+## 📝 Funcionalidades Principais
+*   **Aquecimento Padrão:** Início rápido com incremento de 30 segundos.
+*   **Programas Customizados:** Cadastro, edição e exclusão de programas com caracteres identificadores únicos.
+*   **Observabilidade:** Log de erros do backend.
+
