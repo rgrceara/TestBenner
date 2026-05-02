@@ -7,6 +7,7 @@ x86/
 build/
 bin/
 obj/
+TestResults/
 
 # Visual Studio 2010/2012/2015/2019/2022
 *.nosync
