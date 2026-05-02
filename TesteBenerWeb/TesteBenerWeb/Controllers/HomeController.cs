@@ -134,6 +134,7 @@ namespace TesteBenerWeb.Controllers
                 }
 
                 var repo = new ProgramaRepository();
+                novo.EhCustomizado = true;
                 repo.Salvar(novo);
 
                 return Json(new { success = true });
@@ -244,6 +245,19 @@ namespace TesteBenerWeb.Controllers
         public JsonResult Cancelar()
         {
             return Json(new { success = true, message = "Aquecimento interrompido." });
+        }
+
+
+        [HttpGet]
+        [BearerAuthentication]
+        public JsonResult ListarProgramasPreDefinidos()
+        {
+            ProgramaRepository programasrepo = new ProgramaRepository();
+            var programasCustomizados = programasrepo.ListarTodos();
+            var programasIniciais = ProgramaRepository.GetProgramasIniciais();
+            var programas = programasIniciais.Concat(programasCustomizados).ToList();
+            return Json(programas, JsonRequestBehavior.AllowGet);
+       
         }
       
     }

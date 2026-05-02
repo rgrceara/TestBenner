@@ -173,6 +173,7 @@ var programasPreDefinidos = JSON.parse('<%= ViewData["ProgramasJson"] %>');
 var programasCustomizados = JSON.parse('<%= ViewData["ProgramasJsonCustomizados"] %>');
 var caractereAquecimento = ".";
 var nomeOriginalEdicao = null;
+
 let token = localStorage.getItem('microondas_auth_token') || "";
 
 $(document).ready(function() {
@@ -209,6 +210,7 @@ function limpar() {
     estaAquecendo = false;
     ehpreprograma = false;
     ehCustomizado = false;
+    caractereAquecimento = ".";
 }
 
 function enviar() {
@@ -304,6 +306,9 @@ function cancelarLimparTudo() {
     setPainelBloqueado(false);
     ehpreprograma = false;
     ehCustomizado = false;
+    caractereAquecimento = ".";
+    document.getElementById('tempo').readOnly = false;
+    document.getElementById('potencia').readOnly = false;
     Cancelar();
 }
 
@@ -318,6 +323,9 @@ function finalizar() {
     document.getElementById('tempo').value = "";
     setPainelBloqueado(false);
     document.getElementById('btnIniciar').disabled = false;
+    caractereAquecimento = ".";
+    document.getElementById('tempo').readOnly = false;
+    document.getElementById('potencia').readOnly = false;
     alert("Aquecimento Concluido!");
 }
 
@@ -334,6 +342,9 @@ function limparCampos() {
     ehpreprograma = false;
     ehCustomizado = false;
     document.getElementById('btnIniciar').disabled = false;
+    document.getElementById('tempo').readOnly = false;
+    document.getElementById('potencia').readOnly = false;
+    caractereAquecimento = ".";
 }
 
 
@@ -365,9 +376,11 @@ function formatarTempo(segundos) {
 
 
 
-function selecionarPrograma(nome) {
+async function selecionarPrograma(nome) {
     var prog = null;
-
+   
+    await sincronizarProgramas();
+    
     $.each(programasPreDefinidos, function(i, item) {
         if (item.Nome.toLowerCase() === nome.toLowerCase()) {
             prog = item;
@@ -407,7 +420,18 @@ function abrirModal() {
     document.getElementById('cadInstrucao').value = "";
 
     document.getElementById('modalCadastro').style.display = 'block';
-    atualizarGrid();
+    
+    fetch('/Home/ListarProgramasCustomizados', {
+        headers: { 'Authorization': 'Bearer ' + token }
+    })
+    .then(res => res.json())
+    .then(data => {
+    
+        programasCustomizados = data; 
+        atualizarGrid();
+        document.getElementById('modalCadastro').style.display = 'block';
+    })
+    .catch(err => alert("Erro ao carregar programas para a grid."));
 }
 
 
@@ -518,7 +542,9 @@ function enviarDadosParaServidor() {
         success: function(res) {
             if (res.success) {
                 alert("Operação realizada com sucesso!");
-                location.reload();
+                carregarBotoesCustomizados();
+                sincronizarProgramas();
+                fecharModal();
             } else {
                 alert(res.message);
             }
@@ -550,7 +576,7 @@ function carregarBotoesCustomizados() {
             return response.json();
         })
         .then(programas => {
-            programas.forEach(prog => {
+             programas.forEach(prog => {
                 const btn = document.createElement('button');
                 btn.type = 'button';
                 btn.className = 'btn-pre btn-custom-novo';
@@ -582,8 +608,7 @@ function atualizarGrid() {
     if (!corpo) return;
 
     corpo.innerHTML = '';
-
-
+    
     programasCustomizados.forEach(function(p) {
         var tr = document.createElement('tr');
 
@@ -617,7 +642,8 @@ function excluirPrograma(nome, caractere) {
             success: function(res) {
                 if (res.success) {
                     alert("Programa removido!");
-                    location.reload();
+                    carregarBotoesCustomizados();
+                    fecharModal();
                 } else {
                     alert(res.message);
                 }
@@ -769,10 +795,30 @@ async function salvarConfiguracoes() {
 }
 
 
-$(document).ready(function() {
-    setInterfaceLock(true);
-    verificarStatusAPI();
-});
+function sincronizarProgramas() {
+    fetch('/Home/ListarProgramasPreDefinidos', {
+        method: 'GET',
+        headers: {
+            'Authorization': 'Bearer ' + token,
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            
+            throw new Error('Erro na requisição: ' + response.status);
+        }
+        return response.json();
+    })
+    .then(dados => {
+  
+        programasPreDefinidos = dados;
+  
+    })
+    .catch(error => {
+        alert("Não foi possível atualizar a lista de programas.");
+    });
+}
 
 
 window.onload = function() {
