@@ -129,7 +129,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>34172</DevelopmentServerPort>
+          <DevelopmentServerPort>38057</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost/TesteBenerWeb</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
